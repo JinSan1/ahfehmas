@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter';
+    font-style: normal;
+    background:  #23252C;
+}
+.body {
+    background: #1A1B21;
+    max-width: 317px;
+    margin-left: 38%;
+    margin-top: 2%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.laura {
+    height: 317px;
+    width: 317px;
+    
+}
+
+.info h1 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.info h3 {
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+}
+
+.info h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+     text-align: center;
+
+    color: #F5F5F5;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-light {
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #374151;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 17px;
+    width:115px;
+}
+
+.btn-dark {
+    background: #5093E2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:115px;
+   
+}
+.about {
+    max-width: 301px;
+}
+
+.about h1 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+    margin-left: 34px;
+
+}
+
+.about p {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+    margin-left: 34px;
+}
+
+.footer {
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px 16%;
+}

@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  react:
+    container_name: react_app
+    image: 'node:18-alpine3.14'
+    working_dir: /home/app
+    command:
+      - /bin/sh
+      - '-c'
+      - 'npm install && npm start'
+    ports:
+      - '3000:3000'
+    volumes:
+      - './app:/home/app'
