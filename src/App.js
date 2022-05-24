@@ -1,13 +1,16 @@
-import React from "react"
-import Navbar from "./components/Navbar"
-import Main from "./components/Main"
-import "./style.css"
+import React from 'react';
+import Info from './Info';
+import About from './About';
+import Interest from './Interest';
+import Footer from './Footer';
 
 export default function App() {
     return (
-        <div className="container">
-            <Navbar />
-            <Main />
+        <div className="body">
+        <Info />
+        <About />
+        <Interest />
+        <Footer />
         </div>
     )
 }
