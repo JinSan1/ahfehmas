@@ -10,6 +10,8 @@ body {
 .body {
     background: #1A1B21;
     max-width: 317px;
+    margin-left: 38%;
+    margin-top: 2%;
 }
 
 a {
